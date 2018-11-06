@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>feedback</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<form id="feedback" class="feedbackForm"></form>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="Form.js"></script>
+<script>
+  $(document).ready(()=>{
+    let feedbackForm = new Form('feedback.json', '#feedback')
+  })
+</script>
+</body>
+</html>

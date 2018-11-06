@@ -1,0 +1,45 @@
+.feedbackForm {
+  display: flex;
+  flex-direction: column; }
+
+.feedbackTextAreaTag {
+  width: 250px;
+  height: 250px; }
+
+.feedbackLabel {
+  width: 250px; }
+
+.submitBtn {
+  width: 250px;
+  height: 50px; }
+
+.feedbacksWrapper {
+  width: 1141px;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap; }
+
+.feedbackDiv {
+  margin-right: 20px;
+  border: 1px solid grey;
+  width: 250px;
+  height: 250px; }
+
+.BtnApprove, .BtnDelete {
+  width: 100px;
+  height: 25px;
+  margin-left: 10px; }
+
+.feedbackText {
+  margin-left: 10px;
+  width: 205px;
+  height: 150px; }
+
+.feedbackAuthor {
+  margin-left: 10px;
+  margin-bottom: 5px; }
+
+.approved {
+  background: aquamarine; }
+
+/*# sourceMappingURL=style.css.map */
